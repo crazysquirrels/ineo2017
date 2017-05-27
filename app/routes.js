@@ -15,7 +15,7 @@ var db = mongojs('mongodb://albertan:sonata7@ds131511.mlab.com:31511/albertsdb',
 
         dataman= tasks;
 
-        res.render('index', { 
+        /*res.render('index', { 
                                 title: 'Joongcam project', 
                                 header: 'Joongcam',
                                 username: 'Username',
@@ -23,7 +23,7 @@ var db = mongojs('mongodb://albertan:sonata7@ds131511.mlab.com:31511/albertsdb',
                                 footer: 'http://albertahn.com',
                                 id: req.params.id,
                                 datatask: dataman
-                              });
+                              });*/
 
 
     });
