@@ -4,6 +4,17 @@ var db = mongojs('mongodb://albertan:sonata7@ds131511.mlab.com:31511/albertsdb',
 
   // GET home 
   var index = function(req, res) {
+    
+
+    res.render('index', { 
+                                title: 'Joongcam project', 
+                                header: 'Joongcam',
+                                username: 'Username',
+                                share: 'Share this link',
+                                footer: 'http://albertahn.com',
+                                id: req.params.id
+                              });
+                              /*
 
   var error;
   var dataman;
@@ -23,11 +34,11 @@ var db = mongojs('mongodb://albertan:sonata7@ds131511.mlab.com:31511/albertsdb',
                                 footer: 'http://albertahn.com',
                                 id: req.params.id,
                                 datatask: dataman
-                              });*/
+                              });
 
 
     });
-
+*/
     
   };// index
 
